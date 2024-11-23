@@ -1,0 +1,5 @@
+Hello,
+
+In this project, I developed a simple Python program and created a Docker image for it. Additionally, I utilized pip installations and configured a server to run on the local host.
+
+Subsequently, I set up a volume within a container and linked both the local storage and the Docker container. Any modifications made to the local data are reflected in the Docker container, as I have effectively mounted the local data to the host data (i.e., the container).

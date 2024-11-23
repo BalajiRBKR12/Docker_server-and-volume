@@ -1,0 +1,14 @@
+Docker commands:
+TO run a container:
+
+docker build -t bro:12 .
+
+docker run -p 2000:2000 --name brock bro:12
+
+
+For volume:
+
+docker run -it -v User/B:/home/app bash
+
+for confomation:
+I utilized the ls command in the root directory to verify whether the files in the local data are present in the Docker container.
